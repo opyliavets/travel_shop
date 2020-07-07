@@ -1,0 +1,12 @@
+@import '../Header/Header.module.scss';
+@import '../Footer/Footer.module.scss';
+
+.Main{
+    border: 1px solid yellow;
+    height: 470px;
+    margin-top: $HeaderHeigth;
+    padding-bottom: $FooterHeigth;
+    
+}
+
+// calc(100% - ($FooterHeigth - $HeaderHeigth))

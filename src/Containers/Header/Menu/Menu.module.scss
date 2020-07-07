@@ -1,0 +1,52 @@
+
+.Menu{
+    width: 80%;
+    display: flex;
+    justify-content: center;
+}
+
+.Nav{
+    width: 80%;
+    display: flex;
+    justify-content: center;
+}
+
+.List{
+    display: flex;
+    flex-flow: row nowrap;
+    list-style: none;
+    justify-content: space-between;
+    width: 100%;
+    &__item {
+        cursor: pointer;
+        border: 1px solid #edfffa;
+        border-bottom: 2px solid transparent;
+        border-top: 2px solid transparent;
+        height: 40px;
+        width: 25.5%;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+
+        &:last-child{
+            border-right: 2px solid #edfffa;
+        }
+
+        &:first-child{
+            border-left: 2px solid #edfffa;
+        }
+
+        &:hover{
+            border-top: 2px solid rgba(237, 255, 250, .9);
+            border-bottom: 2px solid rgba(237, 255, 250, .9);
+            background-color: rgba(255, 255, 255, 0.2);       
+            transition: all 0.2s ease-in-out;
+        }
+        
+        & a{
+            color: #edfffa !important;
+            text-decoration: none;
+            font-weight: 600;
+        }   
+    } 
+}

@@ -1,0 +1,23 @@
+.Logo{
+    width: 450px;
+    height: 100px;
+    display: flex;
+    flex-flow: row nowrap;    
+    justify-content: space-around;
+    align-items: center;
+    &__image{        
+        width: 85px;
+        height: 85px;
+        margin-left: 25px;
+        background-image: url(../../../Assets/Logo/Logo.svg);
+        background-size: cover;
+    }
+
+    &__title{
+        background-image: url(../../../Assets/Images/Logo__title.png);
+        background-size: cover;
+        width: 275px;
+        height: 100%; 
+        margin-left: -50px;      
+    }
+}

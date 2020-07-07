@@ -1,0 +1,14 @@
+$HeaderHeigth: 150px;
+
+.Header{    
+    height: $HeaderHeigth;
+    position: fixed;
+    top: 0;
+    width: 100%;
+    display: flex;
+    flex-flow: row nowrap;
+    justify-content: space-around;
+    align-items: center;
+    background-image: url(../../Assets/Images/Header-bckg.jpg);
+    background-size: cover;
+}
