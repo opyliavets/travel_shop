@@ -4,9 +4,10 @@ import classes from './Menu.module.scss'
 
 const links = [
     { to: '/', label: 'Про проект', exact: true },
-    { to: '/guide', label: 'Мандрівки', exact: false },
-    { to: '/about', label: 'Як користуватись', exact: false },
-    { to: '/contact', label: 'Контакти', exact: false }    
+    { to: '/travels', label: 'Мандрівки', exact: false },
+    { to: '/places', label: 'Місця', exact: false }, 
+    { to: '/guides', label: 'Гіди', exact: false },
+   
 ]
 
 class Menu extends Component{

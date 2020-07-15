@@ -2,11 +2,10 @@
 @import '../Footer/Footer.module.scss';
 
 .Main{
-    border: 1px solid yellow;
-    height: 470px;
+    min-height: 470px;
     margin-top: $HeaderHeigth;
-    padding-bottom: $FooterHeigth;
-    
+    // padding-top: 3px;
+    padding-bottom: $FooterHeigth;    
 }
 
 // calc(100% - ($FooterHeigth - $HeaderHeigth))

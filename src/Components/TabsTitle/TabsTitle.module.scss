@@ -1,0 +1,31 @@
+.TabsTitle{
+    display: flex;
+    flex-flow: row nowrap;
+    flex-grow: 1;
+    justify-content: space-between;
+    box-sizing: border-box;
+    width: 99%;
+    height: 550px;
+    margin: 5px auto;
+}
+
+.Image{
+    width: 40%;
+    height: 100%;
+    background-size: cover;
+    background-repeat: no-repeat;
+    
+}
+
+.Name{
+    width: 59.5%;
+    height: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-image: linear-gradient(to bottom, rgb(73, 135, 131), rgb(86, 145, 134), rgb(99, 154, 137), rgb(111, 164, 140), rgb(124, 173, 143), rgb(137, 183, 146), rgb(150, 192, 148), rgb(163, 202, 151), rgb(176, 211, 154), rgb(188, 221, 157), rgb(201, 230, 160), rgb(214, 240, 163));
+    font-size: 50px;
+    font-weight: lighter;
+    color: white;
+    
+}

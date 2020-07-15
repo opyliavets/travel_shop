@@ -1,15 +1,13 @@
 import React, { Component } from 'react'
-import classes from './Title.module.scss'
+import classes from './Travels.module.scss'
 import TabsTitle from '../../../Components/TabsTitle/TabsTitle'
 
-
-
-class TitlePage extends Component{
+class Travels extends Component{
     state = {
         images: {
-            TitleTabMainImage: "https://images.unsplash.com/photo-1488646953014-85cb44e25828?ixlib=rb-1.2.1&ixid=eyJhcHBfaWQiOjEyMDd9&auto=format&fit=crop&w=933&q=80"
+            TitleTabMainImage: "https://images.unsplash.com/uploads/141148589884100082977/a816dbd7?ixlib=rb-1.2.1&ixid=eyJhcHBfaWQiOjEyMDd9&auto=format&fit=crop&w=1050&q=80"
         },
-        tabName: 'Про проект'
+        tabName: 'Мандрівки'
     }
 
     render() {
@@ -24,4 +22,4 @@ class TitlePage extends Component{
     }
 }
 
-export default TitlePage
+export default Travels

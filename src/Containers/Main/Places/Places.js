@@ -1,15 +1,13 @@
 import React, { Component } from 'react'
-import classes from './Title.module.scss'
+import classes from './Places.module.scss'
 import TabsTitle from '../../../Components/TabsTitle/TabsTitle'
 
-
-
-class TitlePage extends Component{
+class Places extends Component{
     state = {
         images: {
-            TitleTabMainImage: "https://images.unsplash.com/photo-1488646953014-85cb44e25828?ixlib=rb-1.2.1&ixid=eyJhcHBfaWQiOjEyMDd9&auto=format&fit=crop&w=933&q=80"
+            TitleTabMainImage: "https://images.unsplash.com/photo-1506974210756-8e1b8985d348?ixlib=rb-1.2.1&auto=format&fit=crop&w=700&q=80"
         },
-        tabName: 'Про проект'
+        tabName: 'Місця'
     }
 
     render() {
@@ -24,4 +22,4 @@ class TitlePage extends Component{
     }
 }
 
-export default TitlePage
+export default Places
