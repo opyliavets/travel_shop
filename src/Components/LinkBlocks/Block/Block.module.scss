@@ -1,0 +1,37 @@
+.Block{
+    display: flex;
+    flex-flow: column nowrap;
+    width: 100%;
+    height: 100%;
+    box-sizing: border-box;
+    border-radius: inherit;
+}
+
+.ImageBlock{
+    width: 100%;
+    height: 80%;
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: center;
+    border-top-left-radius: inherit;
+    border-top-right-radius: inherit;
+}
+
+.NameBlock{
+    background-color: white;
+    width: 100%;
+    height: 20%;
+    border-bottom-left-radius: inherit;
+    border-bottom-right-radius: inherit;
+}
+
+.NameBlock h5{
+    font-size: 15px;
+    font-weight: 300;
+    height: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: flex-end;
+    padding-bottom: 5px;
+    
+}

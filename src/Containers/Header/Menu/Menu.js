@@ -6,8 +6,7 @@ const links = [
     { to: '/', label: 'Про проект', exact: true },
     { to: '/travels', label: 'Мандрівки', exact: false },
     { to: '/places', label: 'Місця', exact: false }, 
-    { to: '/guides', label: 'Гіди', exact: false },
-   
+    { to: '/guides', label: 'Гіди', exact: false },   
 ]
 
 class Menu extends Component{

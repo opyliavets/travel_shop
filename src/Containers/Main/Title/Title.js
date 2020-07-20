@@ -1,6 +1,8 @@
 import React, { Component } from 'react'
 import classes from './Title.module.scss'
 import TabsTitle from '../../../Components/TabsTitle/TabsTitle'
+import Slogan from '../../../Components/Slogan/Slogan'
+import LinkBlocks from '../../../Components/LinkBlocks/LinkBlocks'
 
 
 
@@ -19,6 +21,10 @@ class TitlePage extends Component{
                     url={this.state.images.TitleTabMainImage}
                     tabName={this.state.tabName}
                 />
+                <Slogan
+                    slogan='Лише той хто мандрує, відкриває нові шляхи.'
+                />
+                <LinkBlocks/>
             </div>
         )
     }
