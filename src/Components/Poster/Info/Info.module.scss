@@ -1,0 +1,13 @@
+.Info{
+    display: flex;
+    flex-flow: column nowrap;
+    margin-left: 15px;
+    max-width: 70%;
+
+    & h2{
+        font-size: 65px;
+        margin-bottom: 15px;
+
+    }
+}
+

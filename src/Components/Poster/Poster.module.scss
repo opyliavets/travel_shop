@@ -1,0 +1,12 @@
+.Poster{
+    display: flex;
+    flex-flow: row nowrap;
+    justify-content: flex-start;
+    width: 100%;
+    height: 400px;
+    padding: 15px;
+}
+
+.Left{
+    flex-flow: row-reverse nowrap;
+}
