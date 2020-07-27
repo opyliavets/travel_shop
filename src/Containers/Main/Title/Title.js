@@ -3,7 +3,7 @@ import classes from './Title.module.scss'
 import TabsTitle from '../../../Components/TabsTitle/TabsTitle'
 import Slogan from '../../../Components/Slogan/Slogan'
 import LinkBlocks from '../../../Components/LinkBlocks/LinkBlocks'
-import Poster from '../../../Components/Poster/Poster'
+
 
 
 
@@ -33,24 +33,6 @@ class TitlePage extends Component{
                     slogan={this.state.slogan}
                 />
                 <LinkBlocks />
-                <Poster
-                    url={this.state.firstPoster.photo}
-                    type={this.state.firstPoster.type}
-                    header={this.state.firstPoster.header}
-                    description={this.state.firstPoster.description}
-                />
-                <Poster
-                    url={this.state.firstPoster.photo}
-                    type={this.state.firstPoster.type}
-                    header={this.state.firstPoster.header}
-                    description={this.state.firstPoster.description}
-                />
-                <Poster
-                    url={this.state.firstPoster.photo}
-                    type={this.state.firstPoster.type}
-                    header={this.state.firstPoster.header}
-                    description={this.state.firstPoster.description}
-                />
             </div>
         )
     }

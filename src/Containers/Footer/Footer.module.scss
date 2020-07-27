@@ -1,7 +1,21 @@
-$FooterHeigth: 100px;
+$FooterHeigth: 300px;
+
+.FooterWrapper{
+    border-top: 1px solid silver;    
+    height: $FooterHeigth;    
+    margin-bottom: -$FooterHeigth;
+    display: flex;
+    flex-flow: column nowrap;
+    justify-content: center;
+    align-items: center;
+  
+}
 
 .Footer{
-    border: 1px solid red;    
-    height: $FooterHeigth;    
-    margin-bottom: -$FooterHeigth;    
+    display: flex;
+    flex-flow: row nowrap;
+    height: 75%;
+    width: 100%;
+    justify-content: space-around;
+    padding: 15px;  
 }

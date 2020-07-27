@@ -1,0 +1,29 @@
+.Copyrights{
+    height: 25%;
+    width: 90%;
+    display: flex;
+    flex-flow: row nowrap;
+    justify-content: space-around;
+    align-items: center;
+    border-top: 1px solid silver;
+    margin-top: 15px;
+}
+
+.Networks{
+    width: 20%;
+    display: flex;
+    flex-flow: row nowrap;
+    justify-content: space-around;
+}
+
+.Facebook{
+    width: 22.5px;
+    height: 22.5px;
+}
+
+.Instagram{
+    width: 22.5px;
+    height: 22.5px;
+    background-image: url(../../../Assets/Logo/social-network.svg);
+}
+

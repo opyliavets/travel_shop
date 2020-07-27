@@ -6,9 +6,13 @@ import Info from './Info/Info'
 const Poster = props => {
     const cls = [classes.Poster]
 
+    if (props.type) {
+        cls.push(classes[props.type])
+    }
+
     return (
         <div
-            className={cls}
+            className={cls.join(' ')}
             type={props.type}
         >
             <Photo

@@ -1,12 +1,20 @@
 .Poster{
     display: flex;
-    flex-flow: row nowrap;
-    justify-content: flex-start;
-    width: 100%;
+    justify-content: space-around;
+    align-items: center;
+    width: 99%;
     height: 400px;
-    padding: 15px;
+    padding: 15px;    
 }
 
-.Left{
+.Poster.left{
+    flex-flow: row nowrap;    
+}
+
+.Poster.right{
     flex-flow: row-reverse nowrap;
+    background-color: black;
+    border: none;
+    width: 100%;
+    color: white;
 }
