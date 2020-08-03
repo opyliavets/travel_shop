@@ -21,6 +21,9 @@ const Poster = props => {
             <Info
                 header={props.header}
                 description={props.description}
+                type={props.type}
+                btnName={props.btnName}
+                state={props.state}
             />
         </div>
     )
