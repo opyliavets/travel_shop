@@ -10,7 +10,7 @@ $topOt: calc($HeaderHeigth + 20px);
     z-index: 100;
     background-color: white;
     border: none;
-    border-radius: 5px;    
+    border-radius: 5px;  
 }
 
 .Overlay {
@@ -19,11 +19,22 @@ $topOt: calc($HeaderHeigth + 20px);
     left: 0;
     right: 0;
     bottom: 0;
-    background-color: rgba(88, 88, 88, 0.486);
+    background-color: rgba(88, 88, 88, 0.5);
+
+    &::after{
+        content: '\2716';
+        color: rgb(255, 255, 255);
+        position: absolute;
+        top: 105px;
+        right: 10px;       
+        z-index: 200;
+    }
   }
 
   .positioning{
       color: black;
       width: 10px;
       height: 10px;
+      z-index: 100;
   }
+
